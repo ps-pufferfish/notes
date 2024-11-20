@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "77589893a25080cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "22636952a7b9483b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcb73260a62c6109",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Random Linux Things.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Random Linux Things"
+            }
+          },
+          {
+            "id": "40198a03d8dfd0dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bambdas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bambdas"
+            }
+          },
+          {
+            "id": "b0c42938b42e6ec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Random Linux Things.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Random Linux Things"
+            }
+          },
+          {
+            "id": "4de944ec426f1ff6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "General Notes"
+            }
+          },
+          {
+            "id": "439327b688369325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Goal Workshopping.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Goal Workshopping"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6cd4f1c3e931de6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "697bfacd88422250",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05e2e3f3ff781410",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d538e41b9aca6e15",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "89e88b44826fa1a1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "17229833b88afe68",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2c49d2b5fbd0347",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84ab4a488f3447b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Goal Workshopping.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Goal Workshopping"
+            }
+          },
+          {
+            "id": "66807fb40a248e26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Goal Workshopping.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Goal Workshopping"
+            }
+          },
+          {
+            "id": "14a64a0c0ffdc46f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "618c1d493156be01",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Goal Workshopping.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Goal Workshopping"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "05e2e3f3ff781410",
+  "lastOpenFiles": [
+    "Random Linux Things.md",
+    "Presentations/Cheese caves.md",
+    "Presentations/Custom Columns.md",
+    "Presentations/Deepeval.md",
+    "Presentations/Swinging.md",
+    "Professional Dev/Gameboy Emulator.md",
+    "Professional Dev/Project Ideas.md",
+    "Professional Dev/Snake Game.md",
+    "Bambdas.md",
+    "Caido vs Burp Thoughts.md",
+    "Fuzzing list.md",
+    "General Notes.md",
+    "Goal Workshopping.md",
+    "Grad Dev Thoughts.md",
+    "Grad Jail.md",
+    "Pasted image 20240417084707.png",
+    "Pasted image 20240822081639.png",
+    "Professional Dev",
+    "Presentations",
+    "Temp.md",
+    "Dev Notes/Popup thing.md",
+    "JIT Compiler.md",
+    "Design Patterns.md",
+    "Pretty Tab.md",
+    "What I don't know.md",
+    "Dev Notes"
+  ]
+}
