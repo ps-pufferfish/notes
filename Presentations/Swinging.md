@@ -1,0 +1,17 @@
+# Scratch notes
+ - Single Gridbaglayout instead of nested layouts
+ - Netbeans
+ - Hardcoding pixel values is a bad idea
+	 - Don't like doing them for spacing either, but I can accept it for whitespace, too hard to change
+	 - if your layout isn't working without hardcoding pixel values, you've got an underlying problem
+ - Theme Changing
+ - Font resising
+ - THE SWING THREAD!
+	 - stay on it for ui stuff
+	 - seriously, don't do ui stuff off the swing thread
+ - separate behaviour from ui initialisation
+	 - Doesn't necessarily have to be a separate controller class, but if you're defining action listeners and other gubbins alongside swing layout stuff, it's probably gonna be difficult to change.
+- When you add listeners, are you removing them eventually
+	- most of the time it's fine, they'll get destroyed along with the object
+	- sometimes, you have a memory leak. e.g. adding window listener to parent window every time a sub window is created.
+- 

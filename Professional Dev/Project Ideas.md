@@ -1,0 +1,17 @@
+ - Graphics
+	 - Ray tracer
+	 - Rasterization engine
+	 - Simple graphics engine
+	 - Marching spheres
+ - Networking
+	 - load balancer
+ - Company use
+	 - Some sort of wacky extension to MyPortswigger
+		 - Auction
+		 - Company-wide rock-paper-scissors
+ - Low level
+	 - Chip-8 emulator
+	 - Gameboy emulator 
+		 - https://rylev.github.io/DMG-01/public/book/cpu/executing_instructions.html
+	 - Memory allocator
+	 - zactronics style microprocessor emulator

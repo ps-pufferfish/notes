@@ -1,0 +1,47 @@
+ We can get a vague idea of how out ai apps perform by just messing around with them, but to be confident in them, we want something more rigorous, and something automatic
+ 
+ - What's the issue, what makes llm testing different?
+	 - Non deterministic behavior, you've all experienced this
+	 - You give an llm the same thing 3 times, and receive 3 different responses.
+	 - We can't just check that when we ask X, we get Y back.
+	 - Cruicially though, the responses often have the same meaning, just expressed differently.
+ - Simplistic solution
+	 - Properties, asking about Server header, response contains "header", doesn't contain "tennis"
+	 - Not very scalable, extremely difficult in many cases, not very useful, and prone to failure
+	 - So, how do we get around this issue of semantic comparison?
+ - Ask the llm
+	 - We don't know what will be returned exactly, but we know what kind of thing we're expecting.
+	 - It just so happens LLMs are really good at this sort of thing. If this is an LLM's wheelhouse, that's semantic comparison.
+ - Error rate
+	 - This does introduce some downsides.
+	 - Now, not only is the thing we're testing non-deterministic, so is our testing mechanism.
+	 - I can hear your internal screams, surely, you're thinking, this will lead to a hell of flakey tests and red pipelines.
+	 - Not actually that bad. 
+	 - This kind of llm use is incredibly consistent when everything is working okay
+	 - Although there can be issues when failures are not identified.
+	 - In other words, the tests have okay accuracy, but high precision
+ - Why it's okay
+	 - These tests can never be fool proof, we can't capture every possible user input. It's never going to be perfect
+	 - We need it to be Good Enough™
+	 - High precision means we might let some failures through, but when there is a failure, it's definitely a problem. This is what we want.
+	 - With enough test cases, we'll get at least one failure if there's a serious problem.
+	 - With the library we're using, we can tweak the thresholds for test failure to our liking to increase certainty.
+ - What do we want to measure?
+	 - Given this, what do we actually want to check with the llm?
+	 - Could conceivably ask anything, so what is useful.
+	 - This probably varies with the specific thing you're building
+	 - For pro's usecase of What is this, where users are just looking up details much like a search engine, three things stood out
+- Correctness
+	 - Is the returned result factually accurate? Does it say anything that is just down right wrong.
+	 - The truth
+ - Faithfulness
+	 - Does it miss anything, is there some info that it failed to mention.
+	 - The whole truth
+ - Relevancy
+	 - Does it stay on topic. Doesn't start mentioning Chaddam from love island
+	 - Nothing but the truth
+ - Conclusion
+	 - Using llms to test llm output isn't as bad as you might think
+	 - My own assumption, but try to use a different model family to evaluate to make sure the evaluating model doesn't have the same biases.
+	 - Inconsistent tests aren't necessarily the end of the world, just make sure that when they're failing, they're actually failing
+	 - There is no "perfect" in AI
